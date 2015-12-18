@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015 BoulzorROM
+     Copyright (C) 2015 Benzo Rom
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +15,19 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Expanded Desktop -->
+    <string-array name="expanded_desktop_entries" translatable="false">
+        <item>@string/expanded_hide_both</item>
+        <item>@string/expanded_hide_status</item>
+        <item>@string/expanded_hide_navigation</item>
+    </string-array>
+
+    <string-array name="expanded_desktop_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
     <!-- Names of categories of app ops tabs -->
     <string-array name="app_ops_categories_benzo" translatable="false">
