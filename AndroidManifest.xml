@@ -3142,6 +3142,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter> 
         </activity>
+        <activity android:name="Settings$LockScreenWeatherSettingsActivity"
+                  android:label="@string/weather_title"
+                  android:taskAffinity="com.android.settings"
+                  android:parentActivityName="Settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.bzr.settings.LockScreenWeatherSettings" />
+        </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

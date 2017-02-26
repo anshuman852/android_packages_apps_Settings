@@ -129,6 +129,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.bzr.settings.BzrSettings;
+import com.bzr.settings.LockScreenWeatherSettings;
 
 public class SettingsGateway {
 
@@ -249,6 +250,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             BzrSettings.class.getName(),
+            LockScreenWeatherSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

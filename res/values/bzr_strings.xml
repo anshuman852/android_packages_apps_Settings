@@ -19,6 +19,7 @@
     <!-- BZR Extras -->
     <string name="bzr_settings_title">BZR Extras</string>
     <string name="bzr_dashboard_summary">Extra Features</string>
+    <string name="weather_title">Weather</string>
 
     <!-- General -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
