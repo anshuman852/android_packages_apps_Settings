@@ -205,4 +205,8 @@
     <string name="linaro_version">Gcc kernel</string>
     <string name="linaro_version_default">Unknown</string>
 
+    <!-- Clang version -->
+    <string name="clang_version">Clang</string>
+    <string name="clang_version_default">Unknown</string>
+
 </resources>
