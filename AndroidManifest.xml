@@ -3126,6 +3126,8 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/bzr_dashboard_summary"/>
         </activity>
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.bzr.settings.hideappfromrecents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
