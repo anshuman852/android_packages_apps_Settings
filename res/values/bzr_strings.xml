@@ -197,4 +197,8 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+
 </resources>
