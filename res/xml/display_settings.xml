@@ -133,7 +133,7 @@
         android:summary="@string/ambient_doze_auto_brightness_summary"
         android:dependency="auto_brightness" />
 
-    <com.benzo.settings.preference.CustomSeekBarPreference
+    <com.bzr.settings.preference.CustomSeekBarPreference
         android:key="ambient_doze_custom_brightness"
         android:title="@string/ambient_doze_custom_brightness_title"
         android:max="255"
