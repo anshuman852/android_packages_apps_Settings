@@ -201,4 +201,8 @@
     <string name="battery_saver_color_title">Warning color</string>
     <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 
+    <!-- Linaro-GCC version -->
+    <string name="linaro_version">Gcc kernel</string>
+    <string name="linaro_version_default">Unknown</string>
+
 </resources>
