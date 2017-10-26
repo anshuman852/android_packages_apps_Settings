@@ -44,7 +44,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.benzo.ColorUtils;
+import com.android.internal.util.bzr.ColorUtils;
 
 import com.android.settings.R;
 import com.android.settings.preference.SystemSettingSwitchPreference;
@@ -100,7 +100,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.BOULZOR;
     }
 
     @Override
@@ -488,7 +488,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     @Override
     public int getDialogMetricsCategory(int id) {
         if (id == DIALOG_APPS) {
-            return MetricsEvent.BENZO;
+            return MetricsEvent.BOULZOR;
         }
         return 0;
     }
